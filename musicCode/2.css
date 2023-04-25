@@ -1,0 +1,63 @@
+/* reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-image:url("Music\ Background.jpg");
+    background-size: 100%;
+    /*background-color: linear-gradient(to bottom, #ff0000, #0000ff);*/
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.299);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+  }
+
+  #heading{
+    margin-top: auto;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-family: 'Times New Roman', Times, serif;
+  color: blue;
+    font-size: 20px;
+  }
+  
+  .box {
+    width: calc(33.33% - 1rem);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    /*background-color: cadetblue;*/
+  }
+  
+  .box img {
+    display: block;
+    width:250px;
+    height: 300px;
+    margin-bottom: 1rem;
+  }
+  
+  .box audio {
+    display: block;
+    width: 100%;
+  }
+  
