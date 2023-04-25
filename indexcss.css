@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("homepage.jpg");
+    background-size: cover; 
+    
+
+}
+nav{
+    background-color: transparent;
+}
+ul.left{
+    float: left;
+    margin-left: 300px;
+    padding: 25px;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+ul li{
+    display: inline;
+    margin: 1.5cm;
+    font-size: large;
+    color: white;
+}
+ul li a:hover{
+    border-radius: 25px;
+      padding: 10px 20px;
+      background-color: #6d06b3;
+      color: white;
+      font-size: 16px;
+      border: none;
+    
+}
+ul li i:hover{
+    color: white;
+    transform: rotate(15deg);
+}
+.backimg{
+    background-repeat: repeat-y;
+}
+a {
+    color: rgb(7, 39, 107);
+}
