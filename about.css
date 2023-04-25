@@ -1,0 +1,63 @@
+button{
+  margin-top: 75px;
+  margin-left: 75px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #d1a3f0;
+  color: #5b0098;
+  font-size: 20px;
+  border: black;
+  border-width: 5px;
+}
+
+
+
+button:hover{
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #ada3f0;
+  color: #210098;
+  font-size: 20px;
+  border: black;
+  border-width: 5px;
+}
+body{
+  background-image: url("page\ \(1\).jpg");
+  background-size: 100%;
+}
+
+div {
+  max-width: 800px;
+  margin-top: 2.5%; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 40px;
+
+}
+
+h2 {
+  margin-top: 0%;
+  font-size: 50px;
+  text-align: center;
+  background: -webkit-linear-gradient(#372a8a, #7212b3); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 0%;
+  color: #5b0098;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.frosted-glass-box {
+  background-color: rgba(255, 255, 255, 0.105);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
