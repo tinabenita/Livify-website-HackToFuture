@@ -33,7 +33,7 @@
             <!--<p>Developer</p>-->
             <!-- <h6>Full</h6> -->
             <div class="icons">
-              <a href="https://www.linkedin.com/in/tina-benita-rego">
+              <a href="https://www.linkedin.com/in/tina-benita-rego/">
                 <i class="fab fa-linkedin"></i>
               </a>
               <a href="https://github.com/tinabenita">

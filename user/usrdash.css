@@ -42,11 +42,11 @@ a {
   font-size: 24px;
   padding: 15px 30px;
   border-radius: 30px;
-  background-color: #4a4a4a;
+  background-color: #37007a;
   transition: all 0.3s ease;
 }
 
 /* Change the background color of each button on hover */
 a:hover {
-  background-color: #999;
+  background-color: #999999;
 }
