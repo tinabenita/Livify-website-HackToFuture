@@ -55,7 +55,12 @@
         <li><a href="../videoCode/video.php" target="_blank">Videos</a></li>
         <li><a href="../Games/games.php" target="_blank">Games</a></li>
         <li><a href="../Articlecode/article.php" target="_blank">Articles</a></li>
-      </ul>
+
+      </ul>     
+      <div class="logout"><a href="logout.php">Logout</a></div>   
+      
+
     </div>
+    
   </body>
 </html>

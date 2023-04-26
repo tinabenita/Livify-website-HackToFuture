@@ -4,8 +4,9 @@
     <title>games</title>
     <style>
       body {
-        background-color: #f2f2f2;
+        
         font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #8dadf0, #f186df);
       }
       .container {
         max-width: 800px;
@@ -35,5 +36,6 @@
       <a href="eas-index.php"><img src="eas.png" alt="Image 1"><div class="caption">Etch-a-Sketch</div></a>
       <a href="rps-index.php"><img src="rps.png" alt="Image 2"><div class="caption">Rock Paper Scissors</div></a>
     </div>
+    
   </body>
 </html>

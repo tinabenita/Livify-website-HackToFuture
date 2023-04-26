@@ -2,6 +2,7 @@
 body {
   background: linear-gradient(135deg,  rgb(144, 227, 255),  #ed90fc);
   font-family: 'Helvetica Neue', sans-serif;
+  background-size: cover;
 }
 
 /* Style the container that holds the title and buttons */
@@ -38,6 +39,7 @@ li {
 /* Style the links within each button */
 a {
   color: #fff;
+  margin: auto;
   text-decoration: none;
   font-size: 24px;
   padding: 15px 30px;
@@ -49,4 +51,10 @@ a {
 /* Change the background color of each button on hover */
 a:hover {
   background-color: #999999;
+}
+
+.logout{
+  position: absolute;
+  top: 40px;
+  left: 10px;
 }
