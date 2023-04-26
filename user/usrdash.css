@@ -1,0 +1,52 @@
+/* Set the background color and font family for the entire page */
+body {
+  background: linear-gradient(135deg,  rgb(144, 227, 255),  #ed90fc);
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Style the container that holds the title and buttons */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* Style the title */
+h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 50px;
+  background: -webkit-linear-gradient(#372a8a, #7212b3); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Style the list of buttons */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style each individual button */
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/* Style the links within each button */
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #4a4a4a;
+  transition: all 0.3s ease;
+}
+
+/* Change the background color of each button on hover */
+a:hover {
+  background-color: #999;
+}

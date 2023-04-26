@@ -1,0 +1,50 @@
+.SketchBoard{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    padding: 0px;
+    background-color: white ;
+    
+}
+
+body{
+    background-color: #747274;
+    margin: 0px;
+}
+
+.PageTitle{
+    background-color: #4e5166;
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ButtonDiv{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+
+}
+
+.ButtonDimensions{
+    height: auto;
+    width: auto;
+    background-color: #b5aa9d;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.ButtonBackground{
+    background-color: #7c90a0;
+}

@@ -1,0 +1,38 @@
+
+
+CREATE TABLE USERS(
+  USER_ID INT NOT NULL,
+  FNAME VARCHAR(30) NOT NULL,
+  LNAME VARCHAR(30) NOT NULL,
+  GENDER CHAR(10),
+  AGE INT NOT NULL,
+  EMAIL VARCHAR(50) NOT NULL,
+  USERNAME VARCHAR(15) NOT NULL,
+  PASSWORD VARCHAR(15) NOT NULL, 
+  PRIMARY KEY(USER_ID,USERNAME)
+);
+
+INSERT INTO USERS VALUES(101,'Sharanya','Shetty','F',18,'20cs141.sharanya@sjec.ac.in','sharanya','Sharanya@1234');
+INSERT INTO USERS VALUES(102,'Tina','Rego','F',19,'20cs171.tina@sjec.ac.in','tina','Tina@1234');
+INSERT INTO USERS VALUES(103,'Vanesha','Cutinho','F',20,'20cs174.vanesha@sjec.ac.in','vanesha','Vanesha@1234');
+SELECT * FROM USERS;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
