@@ -10,7 +10,7 @@
 </head>
 <body>
     
-        <button  onclick="location.href='index.php'">Home</button>
+        <button  onclick="window.location.href='../index.php';">Home</button>
     
       <div class="login-form">
         <h2>USER LOGIN</h2>
